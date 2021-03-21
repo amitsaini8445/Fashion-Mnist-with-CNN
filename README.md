@@ -9,9 +9,23 @@ The original MNIST dataset contains a lot of handwritten digits. Members of the 
 - To locate a pixel on the image, suppose that we have decomposed x as x = i * 28 + j, where i and j are integers between 0 and 27. The pixel is located on row i and column j of a 28 x 28 matrix.
 - For example, pixel31 indicates the pixel that is in the fourth column from the left, and the second row from the top, as in the ascii-diagram below.
 
-Each row is a separate image
-Column 1 is the class label.
-Remaining columns are pixel numbers (784 total).
-Each value is the darkness of the pixel (1 to 255)
+- Each row is a separate image
+- Column 1 is the class label.
+- Remaining columns are pixel numbers (784 total).
+- Each value is the darkness of the pixel (1 to 255)
+
+Problem- Classify the image which label exist. label value are [0,1,2,3,4,5,6,6,7,8,9]
+
+## Pipeline for this dataset to solve the problem:
+1. Load the Library
+2. load the data (download the data)
+3. Data Analysis
+4. Preprocessing (scaling , normalization)
+5. Build the model
+6. Compile the model
+7. fit the model
+8. Evaluate the model
+9. preidct the model
+10. Check the accuracy  
 
 
