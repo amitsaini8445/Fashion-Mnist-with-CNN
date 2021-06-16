@@ -29,4 +29,4 @@ Problem- Classify the image which label exist. label value are [0,1,2,3,4,5,6,6,
 9. preidct the model
 10. Check the accuracy  
 
-
+Thanks
